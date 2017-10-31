@@ -10,9 +10,9 @@ def speed_of_person(person)
   return distance / secs
 end
 
-speed1 = speed_of_person(1)
-speed2 = speed_of_person(2)
-speed3 = speed_of_person(3)
+speed1 = speed_of_person(1).round(2)
+speed2 = speed_of_person(2).round(2)
+speed3 = speed_of_person(3).round(2)
 
 if speed3 > speed2 && speed3 > speed1
   puts "Person 3 was the fastest at #{speed3} m/s"
